@@ -1,0 +1,13 @@
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\SQLMonitor.exe.config
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\SQLMonitor.exe
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\SQLMonitor.pdb
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\obj\Debug\SQLMonitor.csprojResolveAssemblyReference.cache
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\obj\Debug\SQLMonitor.ProjectInstaller.resources
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\obj\Debug\SQLMonitor.csproj.GenerateResource.Cache
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\obj\Debug\SQLMonitor.exe
+C:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\obj\Debug\SQLMonitor.pdb

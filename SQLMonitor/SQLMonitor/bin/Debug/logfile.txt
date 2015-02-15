@@ -1,0 +1,365 @@
+14/12/2014 12:39:43:SqlDependencyOnChange
+14/12/2014 12:39:43:Monitor service has stoppedUpdate
+14/12/2014 12:39:43:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 12:39:43:sampleSqlConnectionSystem.Data.SqlClient.SqlConnection
+14/12/2014 12:39:43:sampleSqlConnection
+14/12/2014 12:39:43:sampleConnectionStringData Source=Sweetu;Initial Catalog=sampleDB;Integrated Security=True
+14/12/2014 12:39:43:Dependency
+14/12/2014 12:39:43:sampleSqlDependency
+14/12/2014 12:39:43:OnChange
+14/12/2014 12:39:43:OpenAsync
+14/12/2014 12:39:43:CommandBehavior
+14/12/2014 13:43:22:Monitor service has stopped
+14/12/2014 13:47:47:Monitor Service has started
+14/12/2014 13:47:47:local variables declared
+14/12/2014 13:47:47:stop1
+14/12/2014 13:47:47:stop2
+14/12/2014 13:47:47:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 13:51:30:Monitor service has stopped
+14/12/2014 13:51:33:Monitor Service has started
+14/12/2014 13:51:33:local variables declared
+14/12/2014 13:51:33:stop1
+14/12/2014 13:51:33:stop2
+14/12/2014 13:51:33:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 14:23:23:Monitor service has stopped
+14/12/2014 14:23:44:Monitor Service has started
+14/12/2014 14:23:44:local variables declared
+14/12/2014 14:23:44:stop1
+14/12/2014 14:23:44:stop2
+14/12/2014 14:23:44:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 15:21:35:Monitor service has stopped
+14/12/2014 15:21:42:Monitor Service has started
+14/12/2014 15:21:42:local variables declared
+14/12/2014 15:21:42:stop1
+14/12/2014 15:21:42:stop2
+14/12/2014 15:21:43:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 16:14:35:Monitor service has stopped
+14/12/2014 16:14:48:Monitor Service has started
+14/12/2014 16:14:48:local variables declared
+14/12/2014 16:14:48:stop1
+14/12/2014 16:14:48:stop2
+14/12/2014 16:14:50:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 16:15:54:Monitor service has stopped
+14/12/2014 16:15:56:Monitor Service has started
+14/12/2014 16:15:56:local variables declared
+14/12/2014 16:15:56:stop1
+14/12/2014 16:15:56:stop2
+14/12/2014 16:15:56:exceptopionCannot find the object "myNotifQueue" because it does not exist or you do not have permissions.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 16:30:14:Monitor service has stopped
+14/12/2014 16:30:18:Monitor Service has started
+14/12/2014 16:30:18:local variables declared
+14/12/2014 16:30:18:stop1
+14/12/2014 16:30:18:stop2
+14/12/2014 16:30:19:exceptopionThe given key was not present in the dictionary.   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.ProcessNotificationResults(SqlDataReader reader)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 16:33:34:Monitor service has stopped
+14/12/2014 16:33:37:Monitor Service has started
+14/12/2014 16:33:37:local variables declared
+14/12/2014 16:33:37:stop1
+14/12/2014 16:33:37:stop2
+14/12/2014 16:33:37:exceptopionThe given key was not present in the dictionary.   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.ProcessNotificationResults(SqlDataReader reader)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 16:34:10:Monitor service has stopped
+14/12/2014 16:35:01:Monitor Service has started
+14/12/2014 16:35:01:local variables declared
+14/12/2014 16:35:01:stop1
+14/12/2014 16:35:01:stop2
+14/12/2014 16:35:02:Stop3
+14/12/2014 16:35:02:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 16:35:02:sampleSqlConnection
+14/12/2014 16:35:02:sampleSqlConnection
+14/12/2014 16:35:02:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 16:35:02:Dependency
+14/12/2014 16:35:02:sampleSqlDependency
+14/12/2014 16:35:02:OnChange
+14/12/2014 16:35:02:OpenAsync
+14/12/2014 16:35:03:CommandBehavior
+14/12/2014 16:37:09:SqlDependencyOnChange
+14/12/2014 16:37:09:Monitor service has stoppedInsert
+14/12/2014 16:37:09:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 16:37:09:sampleSqlConnectionSystem.Data.SqlClient.SqlConnection
+14/12/2014 16:37:09:sampleSqlConnection
+14/12/2014 16:37:09:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 16:37:09:Dependency
+14/12/2014 16:37:09:sampleSqlDependency
+14/12/2014 16:37:09:OnChange
+14/12/2014 16:37:09:OpenAsync
+14/12/2014 16:37:09:CommandBehavior
+14/12/2014 19:24:10:Monitor Service has started
+14/12/2014 19:24:10:local variables declared
+14/12/2014 19:24:10:stop1
+14/12/2014 19:24:10:stop2
+14/12/2014 19:24:29:exceptopionA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 19:27:45:Monitor Service has started
+14/12/2014 19:27:46:local variables declared
+14/12/2014 19:27:46:stop1
+14/12/2014 19:27:46:stop2
+14/12/2014 19:28:08:exceptopionA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 19:56:14:Monitor service has stopped
+14/12/2014 19:58:41:Monitor Service has started
+14/12/2014 19:58:41:local variables declared
+14/12/2014 19:58:41:stop1
+14/12/2014 19:58:41:stop2
+14/12/2014 19:58:41:exceptopionThe given key was not present in the dictionary.   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.ProcessNotificationResults(SqlDataReader reader)
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer.SynchronouslyQueryServiceBrokerQueue()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+14/12/2014 19:59:25:Monitor service has stopped
+14/12/2014 20:00:15:Monitor Service has started
+14/12/2014 20:00:15:local variables declared
+14/12/2014 20:00:15:stop1
+14/12/2014 20:00:15:stop2
+14/12/2014 20:00:15:Stop3
+14/12/2014 20:00:15:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 20:00:15:sampleSqlConnection
+14/12/2014 20:00:15:sampleSqlConnection
+14/12/2014 20:00:15:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:00:15:Dependency
+14/12/2014 20:00:15:sampleSqlDependency
+14/12/2014 20:00:15:OnChange
+14/12/2014 20:00:15:OpenAsync
+14/12/2014 20:00:15:CommandBehavior
+14/12/2014 20:02:15:Into SqlDependencyOnChange.....
+14/12/2014 20:02:15:Monitor service has stoppedInsert
+14/12/2014 20:02:15:In RunAsync
+14/12/2014 20:02:15:Before connection
+14/12/2014 20:02:15:connectionData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:02:28:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 20:02:28:sampleSqlConnectionSystem.Data.SqlClient.SqlConnection
+14/12/2014 20:02:28:sampleSqlConnection
+14/12/2014 20:02:28:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:02:28:Dependency
+14/12/2014 20:02:28:sampleSqlDependency
+14/12/2014 20:02:28:OnChange
+14/12/2014 20:02:28:OpenAsync
+14/12/2014 20:02:28:CommandBehavior
+14/12/2014 20:06:58:Monitor service has stopped
+14/12/2014 20:08:52:Monitor Service has started
+14/12/2014 20:08:52:local variables declared
+14/12/2014 20:08:52:stop1
+14/12/2014 20:08:52:stop2
+14/12/2014 20:08:52:Stop3
+14/12/2014 20:08:52:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 20:08:52:sampleSqlConnection
+14/12/2014 20:08:52:sampleSqlConnection
+14/12/2014 20:08:52:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:08:52:Dependency
+14/12/2014 20:08:52:sampleSqlDependency
+14/12/2014 20:08:52:OnChange
+14/12/2014 20:08:52:OpenAsync
+14/12/2014 20:08:52:CommandBehavior
+14/12/2014 20:09:16:Into SqlDependencyOnChange.....
+14/12/2014 20:09:16:Monitor service has stoppedInsert
+14/12/2014 20:09:16:In RunAsync
+14/12/2014 20:09:16:Before connection
+14/12/2014 20:09:16:connectionData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:09:16:connection opened
+14/12/2014 20:09:16:URL Parameterapi/products?product[name]=Limestone Coast 2010&product[price]=17.9900&product[shipping_category_id]=1&product[sku]=82280&productNotesThis blend of Cabernet Sauvignon and Merlot from Australia's Limestone Coast is made from vineyards grown on shallow red soils overlying hard limestone. The nose shows sweet plum, cherry and strawberry notes on the nose with abundant aniseed aromas reflected on the palate. The bold, fruit driven palate is supported by cedar and vanillin oak characters. The fine silky tannins add to the wine's complexity and long lingering, sweet flavors on the finish.&productVintage2010&productSize750ML&productPoint89&productCategoryWINE&productVarietalCABERNET/MERLOT&productColorRED&productCountryAUSTRALIA&productRegionWESTERN AUSTRALIA&productReviewTEST REVIEW&productReviewerLENNY&productsaleprice15.9900
+14/12/2014 20:09:26:urlParameter ....api/products/95/product_properties?product_property[property_name]=saleprice&product_property[value]=15.9900
+14/12/2014 20:09:27:Response ....{"id":95,"name":"Limestone Coast 2010","description":null,"price":"17.99","display_price":"$17.99","available_on":"2014-12-14T14:37:11.257Z","slug":"limestone-coast-2010-15469ca1-4d4e-4e75-a408-7794b406e1b8","meta_description":null,"meta_keywords":null,"shipping_category_id":1,"taxon_ids":[],"total_on_hand":0,"has_variants":false,"master":{"id":105,"name":"Limestone Coast 2010","sku":"82280","price":"17.99","weight":"0.0","height":null,"width":null,"depth":null,"is_master":true,"cost_price":null,"slug":"limestone-coast-2010-15469ca1-4d4e-4e75-a408-7794b406e1b8","description":null,"track_inventory":true,"display_price":"$17.99","options_text":"","in_stock":false,"option_values":[],"images":[]},"variants":[],"option_types":[],"product_properties":[]}
+14/12/2014 20:09:27:ConfigureDependencyUsingStoreProcedureAndSpecificQueue
+14/12/2014 20:09:27:sampleSqlConnectionSystem.Data.SqlClient.SqlConnection
+14/12/2014 20:09:27:sampleSqlConnection
+14/12/2014 20:09:27:sampleConnectionStringData Source=Sweetu;Initial Catalog=mPower;Integrated Security=True
+14/12/2014 20:09:27:Dependency
+14/12/2014 20:09:27:sampleSqlDependency
+14/12/2014 20:09:27:OnChange
+14/12/2014 20:09:27:OpenAsync
+14/12/2014 20:09:27:CommandBehavior
+16/12/2014 19:27:55:Monitor service has stopped
+16/12/2014 20:53:26:Monitor Service has started
+16/12/2014 20:53:26:local variables declared
+16/12/2014 20:53:26:stop1
+16/12/2014 20:53:26:stop2
+16/12/2014 20:53:55:exceptopionA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+18/12/2014 19:15:37:Monitor service has stopped
+21/12/2014 22:04:00:Monitor Service has started
+21/12/2014 22:04:00:local variables declared
+21/12/2014 22:04:00:stop1
+21/12/2014 22:04:00:stop2
+21/12/2014 22:04:28:exceptopionA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDependencyProcessDispatcher.SqlConnectionContainer..ctor(SqlConnectionContainerHashHelper hashHelper, String appDomainKey, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String& server, DbConnectionPoolIdentity& identity, String& user, String& database, String& queueService, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher, Boolean& errorOccurred, Boolean& appDomainStart, Boolean useDefaults)
+   at SqlDependencyProcessDispatcher.Start(String connectionString, String queue, String appDomainKey, SqlDependencyPerAppDomainDispatcher dispatcher)
+   at System.Data.SqlClient.SqlDependency.Start(String connectionString, String queue, Boolean useDefaults)
+   at SQLMonitor.MonitorService.OnStart(String[] args) in c:\Users\Vijay_2\Documents\Visual Studio 2012\Projects\SQLMonitor\SQLMonitor\MonitorService.cs:line 117
+28/12/2014 08:07:49:Monitor service has stopped
